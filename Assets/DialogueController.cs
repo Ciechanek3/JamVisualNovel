@@ -13,11 +13,15 @@ public class DialogueController : MonoBehaviour
     [SerializeField]
     private List<DIalogueAsset> dialogueBank;
 
+    [SerializeField]
+    private bool isInitial = false;
+
     private int _currentIndex = 0;
 
     private void Awake()
     {
-        PlayDialogue(0);
+        if (isInitial)
+            PlayDialogue(0);
     }
 
     public void PlayDialogue(int index)
