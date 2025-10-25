@@ -1,0 +1,48 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+
+public class DialogueController : MonoBehaviour
+{
+    [SerializeField]
+    private TextMeshProUGUI _text;
+    [SerializeField]
+    private TextMeshProUGUI _ownerName;
+    [SerializeField]
+    private List<DIalogueAsset> dialogueBank;
+
+    private int _currentIndex = 0;
+
+    private void Awake()
+    {
+        PlayDialogue(0);
+    }
+
+    public void PlayDialogue(int index)
+    {
+        var asset = dialogueBank[index];
+        if (_currentIndex < asset.Texts.Count)
+            StartCoroutine(DisplayDialogueForTime(asset.Texts[_currentIndex], PlayDialogue, asset, index));
+        else
+            DisableDialogue();
+    }
+
+    private IEnumerator DisplayDialogueForTime(DIalogueAsset.TimedText text, Action<int> onFinish, DIalogueAsset asset, int index)
+    {
+        text.EventToPlay?.Invoke();
+        _text.text = text.Text;
+        _text.gameObject.SetActive(true);
+        _ownerName.text = text.OwnerName;
+        yield return new WaitForSeconds(text.DisplayTime);
+        _currentIndex++;
+        onFinish?.Invoke(index);
+    }
+
+    private void DisableDialogue()
+    {
+        _currentIndex = 0;
+        _text.gameObject.SetActive(false);
+    }
+}
