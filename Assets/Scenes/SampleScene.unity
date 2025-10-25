@@ -208,6 +208,322 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 0
+--- !u!1 &38592371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 38592373}
+  - component: {fileID: 38592372}
+  m_Layer: 0
+  m_Name: DialogueManagerA1S3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &38592372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38592371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb6948352d6450479ae914f59da7b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 1413381803}
+  _ownerName: {fileID: 540619640}
+  dialogueBank:
+  - <Texts>k__BackingField:
+    - <Text>k__BackingField: Alright, new rule. We label food and supernatural substances
+        from now on.
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1321810610}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1438706162}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: Why are you all looking at me?
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1321810610}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1438706162}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+  isInitial: 0
+--- !u!4 &38592373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38592371}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 637.535, y: 268.10184, z: -4.630838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &82452025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 82452027}
+  - component: {fileID: 82452026}
+  m_Layer: 0
+  m_Name: DialogueManagerA3S4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &82452026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82452025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb6948352d6450479ae914f59da7b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 1413381803}
+  _ownerName: {fileID: 540619640}
+  dialogueBank:
+  - <Texts>k__BackingField:
+    - <Text>k__BackingField: Alright, new rule. We label food and supernatural substances
+        from now on.
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1321810610}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1438706162}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: Why are you all looking at me?
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1321810610}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1438706162}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+  isInitial: 0
+--- !u!4 &82452027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82452025}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 637.535, y: 268.10184, z: -4.630838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &183131169
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,6 +1298,164 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353521183}
   m_CullTransparentMesh: 1
+--- !u!1 &370350890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 370350892}
+  - component: {fileID: 370350891}
+  m_Layer: 0
+  m_Name: DialogueManagerA3S2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &370350891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370350890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb6948352d6450479ae914f59da7b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 1413381803}
+  _ownerName: {fileID: 540619640}
+  dialogueBank:
+  - <Texts>k__BackingField:
+    - <Text>k__BackingField: Alright, new rule. We label food and supernatural substances
+        from now on.
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1321810610}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1438706162}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: Why are you all looking at me?
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1321810610}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1438706162}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+  isInitial: 0
+--- !u!4 &370350892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370350890}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 637.535, y: 268.10184, z: -4.630838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &380025992
 GameObject:
   m_ObjectHideFlags: 0
@@ -1917,6 +2391,7 @@ RectTransform:
   m_Children:
   - {fileID: 557391857}
   - {fileID: 583842265}
+  - {fileID: 1321810611}
   - {fileID: 22754100}
   - {fileID: 1795152048}
   - {fileID: 1214263555}
@@ -2499,7 +2974,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-          - m_Target: {fileID: 1438706158}
+          - m_Target: {fileID: 1438706162}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
             m_MethodName: ChangeCharacterTexture
             m_Mode: 2
@@ -2833,6 +3308,164 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1166702713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1166702715}
+  - component: {fileID: 1166702714}
+  m_Layer: 0
+  m_Name: DialogueManagerA3S3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1166702714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166702713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb6948352d6450479ae914f59da7b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 1413381803}
+  _ownerName: {fileID: 540619640}
+  dialogueBank:
+  - <Texts>k__BackingField:
+    - <Text>k__BackingField: Alright, new rule. We label food and supernatural substances
+        from now on.
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1321810610}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1438706162}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: Why are you all looking at me?
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1321810610}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1438706162}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+  isInitial: 0
+--- !u!4 &1166702715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166702713}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 637.535, y: 268.10184, z: -4.630838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1214263554
 GameObject:
   m_ObjectHideFlags: 0
@@ -2999,6 +3632,81 @@ MonoBehaviour:
   - {fileID: 1295159001}
   - {fileID: 440446772}
   - {fileID: 1438706162}
+--- !u!1 &1321810610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1321810611}
+  - component: {fileID: 1321810613}
+  - component: {fileID: 1321810612}
+  m_Layer: 5
+  m_Name: backGround3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1321810611
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321810610}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 640787722}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1321810612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321810610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -4955962263096187662, guid: 1b9a4b16f2894eb43a84913ebfb4e59a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1321810613
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321810610}
+  m_CullTransparentMesh: 1
 --- !u!1 &1350365493
 GameObject:
   m_ObjectHideFlags: 0
@@ -4319,6 +5027,322 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795152047}
   m_CullTransparentMesh: 1
+--- !u!1 &1939999564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1939999566}
+  - component: {fileID: 1939999565}
+  m_Layer: 0
+  m_Name: DialogueManagerA3S5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1939999565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939999564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb6948352d6450479ae914f59da7b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 1413381803}
+  _ownerName: {fileID: 540619640}
+  dialogueBank:
+  - <Texts>k__BackingField:
+    - <Text>k__BackingField: Alright, new rule. We label food and supernatural substances
+        from now on.
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1321810610}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1438706162}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: Why are you all looking at me?
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1321810610}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1438706162}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+  isInitial: 0
+--- !u!4 &1939999566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939999564}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 637.535, y: 268.10184, z: -4.630838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1971886799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1971886801}
+  - component: {fileID: 1971886800}
+  m_Layer: 0
+  m_Name: DialogueManagerA3S1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1971886800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971886799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb6948352d6450479ae914f59da7b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 1413381803}
+  _ownerName: {fileID: 540619640}
+  dialogueBank:
+  - <Texts>k__BackingField:
+    - <Text>k__BackingField: Alright, new rule. We label food and supernatural substances
+        from now on.
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1321810610}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1438706162}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: Why are you all looking at me?
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1321810610}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1438706162}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+  isInitial: 0
+--- !u!4 &1971886801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971886799}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 637.535, y: 268.10184, z: -4.630838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4329,4 +5353,10 @@ SceneRoots:
   - {fileID: 1752893973}
   - {fileID: 1507723014}
   - {fileID: 1104737793}
+  - {fileID: 38592373}
+  - {fileID: 1971886801}
+  - {fileID: 370350892}
+  - {fileID: 1166702715}
+  - {fileID: 82452027}
+  - {fileID: 1939999566}
   - {fileID: 335894246}
