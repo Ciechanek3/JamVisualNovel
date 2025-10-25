@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8338552066770103566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1495129673728043806}
+  - component: {fileID: 8600714308629194208}
+  m_Layer: 0
+  m_Name: TheoBonusDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1495129673728043806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338552066770103566}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 637.535, y: 268.10184, z: -4.630838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8600714308629194208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338552066770103566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb6948352d6450479ae914f59da7b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 0}
+  _ownerName: {fileID: 0}
+  dialogueBank:
+  - <Texts>k__BackingField:
+    - <Text>k__BackingField: "Oh. I didn\u2019t hear you come in."
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Didn\u2019t mean to interrupt. What are you working
+        on?"
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "I\u2019m trying to map out the sequence of events.
+        Things going missing, noises, temperature drops. I thought maybe if I charted
+        it all, something would make sense."
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: And? Does it?
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Not yet. But randomness is never truly random. You just
+        need the right lens to see the pattern.
+      <OwnerName>k__BackingField: 'Theo '
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Either that, or I\u2019ve finally gone full conspiracy
+        theorist."
+      <OwnerName>k__BackingField: 'Theo '
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "I think you\u2019re just curious."
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Curious. That\u2019s a kinder word for obsessive."
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: 
+      <OwnerName>k__BackingField: 
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "You know, when I was a kid, I used to take apart clocks.
+        My parents hated it. Said I couldn\u2019t leave well enough alone."
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "They didn\u2019t get that I wasn\u2019t trying to break
+        them. I just wanted to understand how time fits together."
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Did you ever put them back together?
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Most of them. A few never ticked the same again.
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Sometimes I wonder if people are like that too. You
+        look too closely, and something changes.
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Or maybe they just start ticking differently. Doesn\u2019t
+        mean they\u2019re broken."
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "You\u2019re surprisingly philosophical tonight."
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Occupational hazard of hanging around you.
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Well, I appreciate the company. Most people get tired
+        of my overthinking.
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: I think the world needs more people who notice the small
+        stuff.
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Then I guess I\u2019ll keep noticing."
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Thanks for listening. It\u2019s nice talking to someone
+        who doesn\u2019t need everything to make sense."
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Just don\u2019t stay up too late worrying about all
+        the logistical things. Goodnight, Theo."
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+  isInitial: 0

@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8338552066770103566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1495129673728043806}
+  - component: {fileID: 8600714308629194208}
+  m_Layer: 0
+  m_Name: SamBonusDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1495129673728043806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338552066770103566}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 637.535, y: 268.10184, z: -4.630838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8600714308629194208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338552066770103566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb6948352d6450479ae914f59da7b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 0}
+  _ownerName: {fileID: 0}
+  dialogueBank:
+  - <Texts>k__BackingField:
+    - <Text>k__BackingField: "Ah, you\u2019re awake too. Midnight snack patrol, huh?"
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Thought I\u2019d see what you\u2019re up to. Couldn\u2019t
+        sleep."
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Same here. Exams, haunted apartments, existential dread\u2026
+        a cookie fixes most of it."
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "I\u2019ll take one. You\u2019re not hiding something
+        else, are you?"
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Depends\u2026 Are you trying to get the passcode for
+        my junk food stash?"
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Honestly though\u2026 nights like these are weird.
+        The place feels\u2026 alive. Not scary, just\u2026 aware."
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Like it\u2019s listening?"
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Exactly. I catch myself talking to the walls sometimes.
+        They don\u2019t answer, but it\u2019s polite to try."
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Sometimes I wonder if I take things too lightly. Humor\u2019s
+        a shield, you know?"
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "You\u2019ve been honest tonight. That\u2019s enough."
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Guess I needed someone to notice. Not everyone gets
+        it.
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "You know\u2026 it\u2019s nice. Just hanging out here,
+        quiet. No ghosts, no lectures, no weird slime\u2026 just us."
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "You know\u2026 it\u2019s nice. Just hanging out here,
+        quiet. No ghosts, no lectures, no weird slime\u2026 just us."
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Alright, now officially midnight snack buddies. Don\u2019t
+        tell the others, they\u2019d get jealous."
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "I wouldn\u2019t dare, afterall, they may start stealing
+        your cookies, then there will be none left for me to take!"
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+  isInitial: 0

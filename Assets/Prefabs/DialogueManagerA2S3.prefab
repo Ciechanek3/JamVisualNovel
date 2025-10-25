@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8338552066770103566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1495129673728043806}
+  - component: {fileID: 8600714308629194208}
+  m_Layer: 0
+  m_Name: DialogueManagerA2S3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1495129673728043806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338552066770103566}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 637.535, y: 268.10184, z: -4.630838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8600714308629194208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338552066770103566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb6948352d6450479ae914f59da7b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 0}
+  _ownerName: {fileID: 0}
+  dialogueBank:
+  - <Texts>k__BackingField:
+    - <Text>k__BackingField: "You\u2019re snooping, huh? Little mystery solver, you."
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 0
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Just... observing
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 0
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Observing? Sounds official. Do you have a warrant?
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 0
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "I\u2019m sure you\u2019ll allow it, unless you\u2019re
+        guilty, of course."
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 0
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Look, weird stuff happens in this apartment, okay?
+        Brushes move, paint spills, I find handprints on my canvas that aren\u2019t
+        mine. But no one ever sees it happen."
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 0
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Handprints?
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 0
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Yeah. Kinda smudged. Like someone\u2019s trying to
+        get through."
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 0
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "(Her eyes flick to me for a second. Like she\u2019s
+        not sure why she said that.) (Faint whisper SFX: \u201CStill here\u2026\u201D) "
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 0
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Did you hear that?
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 0
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Hear what?
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 0
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: ...Never mind
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 0
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+  isInitial: 0

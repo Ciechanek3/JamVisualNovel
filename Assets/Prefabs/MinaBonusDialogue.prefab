@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8338552066770103566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1495129673728043806}
+  - component: {fileID: 8600714308629194208}
+  m_Layer: 0
+  m_Name: MinaBonusDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1495129673728043806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338552066770103566}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 637.535, y: 268.10184, z: -4.630838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8600714308629194208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338552066770103566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb6948352d6450479ae914f59da7b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 0}
+  _ownerName: {fileID: 0}
+  dialogueBank:
+  - <Texts>k__BackingField:
+    - <Text>k__BackingField: "Oh. You\u2019re up too?"
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Couldn\u2019t sleep. The place feels\u2026 different
+        tonight."
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Yeah. Like the walls are holding their breath.
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: I was going to clean up, but then I started doodling.
+        Classic procrastination technique.
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "What\u2019s this one?"
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Just shapes. I like how they look like they\u2019re
+        trying to become something but haven\u2019t decided what yet."
+      <OwnerName>k__BackingField: 'Mina '
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Maybe that\u2019s what makes it art."
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Deep thoughts from the insomnia squad.
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Do you ever feel like you\u2019re\u2026 not really
+        here? Like everyone else is real and you\u2019re just pretending?"
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "\u2026Sometimes."
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "I get that a lot. Sometimes it\u2019s worse when things
+        are quiet. Like I\u2019m watching life through glass."
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: 
+      <OwnerName>k__BackingField: 
+      <DisplayTime>k__BackingField: 4
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "But then someone talks to me, and I remember - I\u2019m
+        still part of it."
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "I think that\u2019s why people like you matter. You
+        make the rest of us feel seen."
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Careful. You\u2019ll make me start believing I\u2019m
+        not a disaster."
+      <OwnerName>k__BackingField: 'Mina '
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Disasters can be beautiful too.
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: Alright, poet. You win this round.
+      <OwnerName>k__BackingField: 'Mina '
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Thanks for staying up with me. It\u2019s\u2026 nice,
+        you know?"
+      <OwnerName>k__BackingField: 'Mina '
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+    - <Text>k__BackingField: "Of course, I\u2019m always here."
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls: []
+  isInitial: 0
