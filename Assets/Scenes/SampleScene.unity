@@ -399,82 +399,95 @@ MonoBehaviour:
   _ownerName: {fileID: 540619640}
   dialogueBank:
   - <Texts>k__BackingField:
-    - <Text>k__BackingField: Alright, new rule. We label food and supernatural substances
-        from now on.
+    - <Text>k__BackingField: "That\u2019s - no. I\u2019m here. I talk to you. I clean,
+        I study -"
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1321810610}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295158996}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 8f6579fcb5b5dbd4790fe2f2c4aaff77, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: "When\u2019s the last time you ate with us?"
       <OwnerName>k__BackingField: Sam
       <DisplayTime>k__BackingField: 3
       <EventToPlay>k__BackingField:
         m_PersistentCalls:
           m_Calls:
-          - m_Target: {fileID: 1321810610}
-            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 1295159001}
-            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
-            m_MethodName: DisableAll
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
           - m_Target: {fileID: 440446772}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
             m_MethodName: ChangeCharacterTexture
             m_Mode: 2
             m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgument: {fileID: 2800000, guid: f4f9cda486b46fa44a1b3bc2b205411e, type: 3}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
               m_IntArgument: 0
               m_FloatArgument: 0
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 1438706162}
-            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
-            m_MethodName: ChangeCharacterTexture
-            m_Mode: 2
-            m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - <Text>k__BackingField: Why are you all looking at me?
+    - <Text>k__BackingField: Or went outside?
       <OwnerName>k__BackingField: Mina
       <DisplayTime>k__BackingField: 3
       <EventToPlay>k__BackingField:
         m_PersistentCalls:
           m_Calls:
-          - m_Target: {fileID: 1321810610}
-            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_MethodName: SetActive
-            m_Mode: 6
+          - m_Target: {fileID: 1438706158}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
             m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_ObjectArgument: {fileID: 2800000, guid: 4ed4d537534817b40a8c02ca1b109d85, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
               m_IntArgument: 0
               m_FloatArgument: 0
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 1295159001}
+    - <Text>k__BackingField: "You keep saying \u2018still here.\u2019 Maybe you were
+        never supposed to be."
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 440446771}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
-            m_MethodName: DisableAll
+            m_MethodName: Disable
             m_Mode: 1
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
@@ -484,24 +497,50 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 440446772}
+          - m_Target: {fileID: 440446771}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
             m_MethodName: ChangeCharacterTexture
             m_Mode: 2
             m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgument: {fileID: 2800000, guid: b51979ba6b4430f4e9ce3ae913b252e4, type: 3}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
               m_IntArgument: 0
               m_FloatArgument: 0
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 1438706162}
+    - <Text>k__BackingField: "(The floor feels unsteady. My hands look\u2026 pale.
+        The air hums around me like static. Every memory since the mess feels stitched
+        together wrong.) "
+      <OwnerName>k__BackingField: Player (Internal)
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1295158996}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
             m_MethodName: ChangeCharacterTexture
             m_Mode: 2
             m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgument: {fileID: 2800000, guid: 095e3d14361ee204e910ac353aefba26, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: "...I didn\u2019t want to leave."
+      <OwnerName>k__BackingField: 'Player '
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1295158996}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 095e3d14361ee204e910ac353aefba26, type: 3}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
               m_IntArgument: 0
               m_FloatArgument: 0
@@ -1331,8 +1370,8 @@ MonoBehaviour:
   _ownerName: {fileID: 540619640}
   dialogueBank:
   - <Texts>k__BackingField:
-    - <Text>k__BackingField: Alright, new rule. We label food and supernatural substances
-        from now on.
+    - <Text>k__BackingField: "I keep seeing that reflection in the fridge - but it\u2019s
+        not different anymore. It\u2019s clearer."
       <OwnerName>k__BackingField: Sam
       <DisplayTime>k__BackingField: 3
       <EventToPlay>k__BackingField:
@@ -1362,13 +1401,32 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 440446772}
+          - m_Target: {fileID: 440446771}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
             m_MethodName: ChangeCharacterTexture
             m_Mode: 2
             m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgument: {fileID: 2800000, guid: f4f9cda486b46fa44a1b3bc2b205411e, type: 3}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: "The handprints on my paintings - they\u2019re your
+        size."
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
               m_IntArgument: 0
               m_FloatArgument: 0
               m_StringArgument: 
@@ -1379,31 +1437,20 @@ MonoBehaviour:
             m_MethodName: ChangeCharacterTexture
             m_Mode: 2
             m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgument: {fileID: 2800000, guid: 4ed4d537534817b40a8c02ca1b109d85, type: 3}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
               m_IntArgument: 0
               m_FloatArgument: 0
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-    - <Text>k__BackingField: Why are you all looking at me?
-      <OwnerName>k__BackingField: Mina
+    - <Text>k__BackingField: "The notebook\u2026 the faces. The last one I drew looks
+        exactly like you."
+      <OwnerName>k__BackingField: Theo
       <DisplayTime>k__BackingField: 3
       <EventToPlay>k__BackingField:
         m_PersistentCalls:
           m_Calls:
-          - m_Target: {fileID: 1321810610}
-            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
           - m_Target: {fileID: 1295159001}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
             m_MethodName: DisableAll
@@ -1421,19 +1468,86 @@ MonoBehaviour:
             m_MethodName: ChangeCharacterTexture
             m_Mode: 2
             m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgument: {fileID: 2800000, guid: b51979ba6b4430f4e9ce3ae913b252e4, type: 3}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
               m_IntArgument: 0
               m_FloatArgument: 0
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 1438706162}
+    - <Text>k__BackingField: "That\u2019s not funny."
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1295159001}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
             m_MethodName: ChangeCharacterTexture
             m_Mode: 2
             m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgument: {fileID: 2800000, guid: 095e3d14361ee204e910ac353aefba26, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: "I didn\u2019t mean for it to be."
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: Disable
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446771}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 7929aaf62ac822f4d8137f04d0890a9b, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: "(My throat goes dry. The whisper from before echoes
+        in my mind - \u201CStill here.\u201D) "
+      <OwnerName>k__BackingField: Player (Internal)
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: Disable
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1295158996}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 095e3d14361ee204e910ac353aefba26, type: 3}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
               m_IntArgument: 0
               m_FloatArgument: 0
@@ -3341,9 +3455,8 @@ MonoBehaviour:
   _ownerName: {fileID: 540619640}
   dialogueBank:
   - <Texts>k__BackingField:
-    - <Text>k__BackingField: Alright, new rule. We label food and supernatural substances
-        from now on.
-      <OwnerName>k__BackingField: Sam
+    - <Text>k__BackingField: "You\u2019ll always have a place here."
+      <OwnerName>k__BackingField: Voice (Familiar)
       <DisplayTime>k__BackingField: 3
       <EventToPlay>k__BackingField:
         m_PersistentCalls:
@@ -3372,48 +3485,12 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 440446772}
-            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
-            m_MethodName: ChangeCharacterTexture
-            m_Mode: 2
-            m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 1438706162}
-            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
-            m_MethodName: ChangeCharacterTexture
-            m_Mode: 2
-            m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - <Text>k__BackingField: Why are you all looking at me?
-      <OwnerName>k__BackingField: Mina
+    - <Text>k__BackingField: '(Cold. Then warmth. Then nothing.) '
+      <OwnerName>k__BackingField: Player (internal)
       <DisplayTime>k__BackingField: 3
       <EventToPlay>k__BackingField:
         m_PersistentCalls:
           m_Calls:
-          - m_Target: {fileID: 1321810610}
-            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
           - m_Target: {fileID: 1295159001}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
             m_MethodName: DisableAll
@@ -3426,24 +3503,138 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 440446772}
+          - m_Target: {fileID: 1295159001}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
             m_MethodName: ChangeCharacterTexture
             m_Mode: 2
             m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgument: {fileID: 2800000, guid: 095e3d14361ee204e910ac353aefba26, type: 3}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
               m_IntArgument: 0
               m_FloatArgument: 0
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 1438706162}
+    - <Text>k__BackingField: "You moved out last semester, didn\u2019t you?"
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1295159001}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: DisableAll
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446771}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
             m_MethodName: ChangeCharacterTexture
             m_Mode: 2
             m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgument: {fileID: 2800000, guid: b51979ba6b4430f4e9ce3ae913b252e4, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: ...No. They never did.
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1438706158}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 4ed4d537534817b40a8c02ca1b109d85, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: They were supposed to. But the lease -
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 440446771}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: Disable
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446771}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: f4f9cda486b46fa44a1b3bc2b205411e, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: What are you saying?
+      <OwnerName>k__BackingField: Player
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1295158996}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 8f6579fcb5b5dbd4790fe2f2c4aaff77, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: "I think\u2026 you never left."
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 440446771}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: Disable
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446771}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: b51979ba6b4430f4e9ce3ae913b252e4, type: 3}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
               m_IntArgument: 0
               m_FloatArgument: 0
@@ -5060,62 +5251,7 @@ MonoBehaviour:
   _ownerName: {fileID: 540619640}
   dialogueBank:
   - <Texts>k__BackingField:
-    - <Text>k__BackingField: Alright, new rule. We label food and supernatural substances
-        from now on.
-      <OwnerName>k__BackingField: Sam
-      <DisplayTime>k__BackingField: 3
-      <EventToPlay>k__BackingField:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 1321810610}
-            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 1295159001}
-            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
-            m_MethodName: DisableAll
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 440446772}
-            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
-            m_MethodName: ChangeCharacterTexture
-            m_Mode: 2
-            m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 1438706162}
-            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
-            m_MethodName: ChangeCharacterTexture
-            m_Mode: 2
-            m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-    - <Text>k__BackingField: Why are you all looking at me?
+    - <Text>k__BackingField: "You don\u2019t have to. Not right away."
       <OwnerName>k__BackingField: Mina
       <DisplayTime>k__BackingField: 3
       <EventToPlay>k__BackingField:
@@ -5145,6 +5281,25 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
+          - m_Target: {fileID: 1438706158}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 4ed4d537534817b40a8c02ca1b109d85, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+    - <Text>k__BackingField: "We\u2019ll remember you. You were\u2026 good company.
+        Even like this."
+      <OwnerName>k__BackingField: Sam
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
           - m_Target: {fileID: 440446772}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
             m_MethodName: ChangeCharacterTexture
@@ -5157,12 +5312,31 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
-          - m_Target: {fileID: 1438706162}
+    - <Text>k__BackingField: "You can let go when you\u2019re ready. Or stay. We\u2019ll
+        keep the place clean."
+      <OwnerName>k__BackingField: Theo
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: Disable
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
             m_MethodName: ChangeCharacterTexture
             m_Mode: 2
             m_Arguments:
-              m_ObjectArgument: {fileID: 2800000, guid: 7f53c2197875fa44282249ae38040b99, type: 3}
+              m_ObjectArgument: {fileID: 2800000, guid: 0c0181c826dba994397799964a958552, type: 3}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
               m_IntArgument: 0
               m_FloatArgument: 0
@@ -5292,7 +5466,7 @@ MonoBehaviour:
       <EventToPlay>k__BackingField:
         m_PersistentCalls:
           m_Calls:
-          - m_Target: {fileID: 1295158996}
+          - m_Target: {fileID: 1295159001}
             m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
             m_MethodName: ChangeCharacterTexture
             m_Mode: 2
@@ -5304,7 +5478,56 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-  isInitial: 0
+    - <Text>k__BackingField: "Let\u2019s just sit. Figure this out. One weird thing
+        at a time."
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1438706162}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: 4ed4d537534817b40a8c02ca1b109d85, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - <Text>k__BackingField: "Fine. But if anyone starts floating, I\u2019m out."
+      <OwnerName>k__BackingField: Mina
+      <DisplayTime>k__BackingField: 3
+      <EventToPlay>k__BackingField:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 440446771}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: Disable
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 440446772}
+            m_TargetAssemblyTypeName: CharacterChanger, Assembly-CSharp
+            m_MethodName: ChangeCharacterTexture
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2800000, guid: ed8bcc91125b75e4da16500582543109, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  isInitial: 1
 --- !u!4 &1971886801
 Transform:
   m_ObjectHideFlags: 0
