@@ -17,7 +17,7 @@ public class DialogueController : MonoBehaviour
     private bool isInitial = false;
 
     private int _currentIndex = 0;
-
+    private float _currentTimer = 0;
     private void Awake()
     {
         if (isInitial)
@@ -35,11 +35,19 @@ public class DialogueController : MonoBehaviour
 
     private IEnumerator DisplayDialogueForTime(DIalogueAsset.TimedText text, Action<int> onFinish, DIalogueAsset asset, int index)
     {
-        text.EventToPlay?.Invoke();
         _text.text = text.Text;
         _text.gameObject.SetActive(true);
         _ownerName.text = text.OwnerName;
-        yield return new WaitForSeconds(text.DisplayTime);
+
+        text.EventToPlay?.Invoke();
+
+        _currentTimer = 0;
+        while (_currentTimer < text.DisplayTime)
+        {
+            _currentTimer += Time.deltaTime;
+            yield return null;
+        }
+
         _currentIndex++;
         onFinish?.Invoke(index);
     }
@@ -48,5 +56,13 @@ public class DialogueController : MonoBehaviour
     {
         _currentIndex = 0;
         _text.gameObject.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            _currentTimer = 999;
+        }
     }
 }
